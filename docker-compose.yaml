@@ -29,7 +29,7 @@ services:
     logging:
       driver: none
   dremio:
-    image: dremio/dremio-oss:20.0.0
+    image: dremio/dremio-oss:20.1.0
     ports:
     - "9047:9047"
     - "31010:31010"
